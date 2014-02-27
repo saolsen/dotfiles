@@ -45,7 +45,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/Users/steveo/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Postgres93.app/Contents/MacOS/bin:/Applications/Racket\ v6.0.0.1/bin
+export PATH=$PATH:/Users/steveo/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Postgres93.app/Contents/MacOS/bin:/Applications/Racket\ v6.0.0.3/bin
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
