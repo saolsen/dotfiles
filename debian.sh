@@ -2,7 +2,7 @@
 
 # Install packages
 apt update
-apt install -y sudo build-essential git fzf direnv emacs-nox btop neofetch aspell ripgrep shellcheck dirmngr apt-transport-https ca-certificates curl gnupg
+apt install -y sudo build-essential git mg fzf direnv emacs-nox btop neofetch aspell ripgrep shellcheck dirmngr apt-transport-https ca-certificates curl gnupg
 
 # Install docker
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker.gpg
