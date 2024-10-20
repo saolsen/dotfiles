@@ -88,7 +88,7 @@
   :config
   (add-hook 'after-init-hook #'global-flycheck-mode))
 
- (add-hook! sh-mode
+ (add-hook 'sh-mode
     (add-to-list 'flycheck-checkers 'sh-shellcheck))
 
 (use-package magit
