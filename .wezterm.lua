@@ -7,7 +7,10 @@ local config = wezterm.config_builder()
 
 config.font = wezterm.font 'Berkeley Mono Variable'
 config.font_size = 14.0
-config.color_scheme = 'zenbones'
+-- config.color_scheme = 'zenbones'
+config.color_scheme = "Catppuccin Latte" -- Mocha, Macchiato, Frappe, Latte
+
+
 
 config.keys = {
   -- Turn off the default CMD-m Hide action, allowing CMD-m to
